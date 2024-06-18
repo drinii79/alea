@@ -2,13 +2,14 @@ body{
     padding: 20px;
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    
     font-style: normal;
  }
  #navbar{
      display: flex   ;
      justify-content: space-between;
      align-items: center;
+     padding-left: 6em;
  }
  #right-nav{
      width: 20%;
@@ -22,3 +23,18 @@ body{
      color: black;
      font-size: larger;
  }
+#top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 44em;
+}
+#mid-menu {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+#line{
+    width: 20em;
+    color: gray;
+}

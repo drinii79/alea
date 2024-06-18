@@ -120,12 +120,14 @@ width: 198px;
       display:flex;
       align-items: center;
       padding: 80px;
+      justify-content: center;
     }
     #left-mid{
       background-color:#D2C7F0 ;
       padding: 13px;
       height: 16em;
       width: 445px;
+      padding-left: 30px;
     }
     #bottom{
       display: flex;
@@ -133,6 +135,9 @@ width: 198px;
     }
     #lorem{
       width: 692px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
     }
 
     
