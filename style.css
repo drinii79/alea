@@ -127,7 +127,12 @@ width: 198px;
       height: 16em;
       width: 445px;
     }
-    #buttons{
-    
+    #bottom{
+      display: flex;
+      justify-content: space-around;
     }
+    #lorem{
+      width: 692px;
+    }
+
     
