@@ -1,0 +1,118 @@
+body{
+    padding: 20px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+ }
+ #navbar{
+     display: flex   ;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 6em;
+ }
+ #right-nav{
+     width: 20%;
+     display: flex;
+   
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ .nav{
+    color: black;
+    font-size: larger;
+}
+#blue{
+    background-color:#043B78 ;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+}
+#purple{
+    background-color:#9416A8 ;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+}
+
+#orange{
+    background-color:#A83116 ;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+}
+#black{
+    background-color:black;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+}
+
+#ngjyrat{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #000000;
+height: 48px;
+width: 198px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-5:hover,
+  .button-5:focus {
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5:active {
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  #left-side{
+    width:38em;
+
+  }
+#right-side{
+    background-color:  #D2C7F0;
+    height: 411px;
+    width: 482px;
+    padding-left: 27px;
+    padding-top: 54px;
+
+}
+#kejt{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

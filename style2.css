@@ -2,7 +2,7 @@ body{
     padding: 20px;
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
-    
+    font-weight: 500;
     font-style: normal;
  }
  #navbar{
@@ -37,4 +37,65 @@ body{
 #line{
     width: 20em;
     color: gray;
+}
+#chair{ 
+    border-radius: 29px 29px 0px 0px;
+    background-color:#F6F2FF ;
+    width: 254px;   
+    height: 227px;
+padding-top: 5px;
+    padding-left: 54px;
+}
+#closet{
+    border-radius: 29px 29px 0px 0px;
+    background-color:#F6F2FF ;
+    width: 254px;   
+    height: 227px;
+padding-top: 5px;
+    padding-left: 54px;
+   
+}
+#dresser{
+    border-radius: 29px 29px 0px 0px;
+    background-color:#F6F2FF ;
+    width: 254px;   
+    height: 227px;
+padding-top: 5px;
+    padding-left: 54px;
+}
+#top-products{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#carpet{
+    border-radius: 29px 29px 0px 0px;
+    background-color:#F6F2FF ;
+    width: 254px;   
+    height: 227px;
+padding-top: 5px;
+    padding-left: 54px; 
+}
+#curtain{
+    border-radius: 29px 29px 0px 0px;
+    background-color:#F6F2FF ;
+    width: 254px;   
+    height: 227px;
+padding-top: 5px;
+    padding-left: 54px;
+}
+#sofa{
+    border-radius: 29px 29px 0px 0px;
+    background-color:#F6F2FF ;
+    width: 254px;   
+    height: 227px;
+padding-top: 5px;
+    padding-left: 54px;
+}
+#bottom-products{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: black;
 }
